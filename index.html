@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b7a5ab63e4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Righteous&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <h2 class="prime">NETFLIX</h2>
+                
+            </div>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Películas</a>
+                <a href="#">TV </a>
+                <a href="#">Más recientes</a>
+                <a href="#">Fav</a>
+                <a href="#"><i class="fa-regular fa-user"></i> User</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="row">
+        <h2>Favoritos</h2>
+        
+        <div class="row__posters">
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie1.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie2.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie3.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie4.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie5.jpg" alt="" />
+          
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie2.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie3.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="row">
+        <h2>Peliculas Animadas</h2>
+        <button class="favorite-button">Agregar a favoritos</button>
+        <div class="row__posters">
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie4.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie5.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie6.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie2.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie3.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie4.jpg" alt="" />
+    
+          <img class="row__poster row__posterLarge" src="imagenes2/large-movie5.jpg" alt="" />
+          
+          
+        </div>
+      </div>
+
+
+
+    <main>
+
+        <div class="main-movie">
+        </div>
+        <div class="recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Recommended for you</h3>
+                <div class="indicadores">
+                </div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+                        class="fa-solid fa-angle-left"></i></button>
+                <div class="contenedor-carousel">
+                    <div class="carousel"></div>
+                </div>
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i
+                        class="fa-solid fa-angle-right"></i></i></button>
+            </div>
+        </div>
+        <div class="recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Trending this week</h3>
+                <div class="indicadores">
+                </div>
+            </div>
+
+            <div class="contenedor-carousel">
+                <div class="carousel_favourites"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+                        class="fa-solid fa-angle-left"></i></button>
+
+               
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i
+                        class="fa-solid fa-angle-right"></i></i></button>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+<footer>
+    <script type="module" src="script.js"></script>
+</footer>
+
+</html>
